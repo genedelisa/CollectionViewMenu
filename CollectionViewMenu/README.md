@@ -7,7 +7,7 @@ How to add a menu to cells in a UICollectionView using Swift.
 [Blog post](http://www.rockhoppertech.com/blog/swift-collectionview-menu/)
 
 
-## Bugs
+## Bugs 
 
 
 ## Licensing
