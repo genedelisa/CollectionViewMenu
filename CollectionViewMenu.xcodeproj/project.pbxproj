@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B0674FD71AD56E360092D1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FD61AD56E360092D1B8 /* AppDelegate.swift */; };
-		B0674FD91AD56E360092D1B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FD81AD56E360092D1B8 /* ViewController.swift */; };
 		B0674FDC1AD56E360092D1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0674FDA1AD56E360092D1B8 /* Main.storyboard */; };
 		B0674FDE1AD56E360092D1B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0674FDD1AD56E360092D1B8 /* Images.xcassets */; };
 		B0674FE11AD56E360092D1B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0674FDF1AD56E360092D1B8 /* LaunchScreen.xib */; };
 		B0674FED1AD56E360092D1B8 /* CollectionViewMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FEC1AD56E360092D1B8 /* CollectionViewMenuTests.swift */; };
+		B0674FF71AD56E730092D1B8 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FF61AD56E730092D1B8 /* MyCollectionViewController.swift */; };
+		B0674FF91AD56E900092D1B8 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FF81AD56E900092D1B8 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,15 @@
 		B0674FD11AD56E360092D1B8 /* CollectionViewMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0674FD51AD56E360092D1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0674FD61AD56E360092D1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0674FD81AD56E360092D1B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0674FDB1AD56E360092D1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0674FDD1AD56E360092D1B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B0674FE01AD56E360092D1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B0674FE61AD56E360092D1B8 /* CollectionViewMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0674FEB1AD56E360092D1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0674FEC1AD56E360092D1B8 /* CollectionViewMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewMenuTests.swift; sourceTree = "<group>"; };
+		B0674FF61AD56E730092D1B8 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		B0674FF81AD56E900092D1B8 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		B0674FFA1AD572DD0092D1B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = CollectionViewMenu/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 		B0674FC81AD56E360092D1B8 = {
 			isa = PBXGroup;
 			children = (
+				B0674FFA1AD572DD0092D1B8 /* README.md */,
 				B0674FD31AD56E360092D1B8 /* CollectionViewMenu */,
 				B0674FE91AD56E360092D1B8 /* CollectionViewMenuTests */,
 				B0674FD21AD56E360092D1B8 /* Products */,
@@ -78,11 +82,12 @@
 			isa = PBXGroup;
 			children = (
 				B0674FD61AD56E360092D1B8 /* AppDelegate.swift */,
-				B0674FD81AD56E360092D1B8 /* ViewController.swift */,
 				B0674FDA1AD56E360092D1B8 /* Main.storyboard */,
 				B0674FDD1AD56E360092D1B8 /* Images.xcassets */,
 				B0674FDF1AD56E360092D1B8 /* LaunchScreen.xib */,
 				B0674FD41AD56E360092D1B8 /* Supporting Files */,
+				B0674FF61AD56E730092D1B8 /* MyCollectionViewController.swift */,
+				B0674FF81AD56E900092D1B8 /* MyCollectionViewCell.swift */,
 			);
 			path = CollectionViewMenu;
 			sourceTree = "<group>";
@@ -212,8 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0674FD91AD56E360092D1B8 /* ViewController.swift in Sources */,
 				B0674FD71AD56E360092D1B8 /* AppDelegate.swift in Sources */,
+				B0674FF71AD56E730092D1B8 /* MyCollectionViewController.swift in Sources */,
+				B0674FF91AD56E900092D1B8 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
