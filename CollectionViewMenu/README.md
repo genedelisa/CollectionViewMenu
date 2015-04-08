@@ -1,6 +1,6 @@
 # CollectionViewMenu
 
-How to add a menu to cells in a UICollectionView using Swift.
+How to add a menu to cells in a UICollectionView using Swift. 
 
 ## Blog post for this example.
 
