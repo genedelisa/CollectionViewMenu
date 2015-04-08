@@ -38,7 +38,7 @@
 		B0674FEC1AD56E360092D1B8 /* CollectionViewMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewMenuTests.swift; sourceTree = "<group>"; };
 		B0674FF61AD56E730092D1B8 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 		B0674FF81AD56E900092D1B8 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
-		B0674FFA1AD572DD0092D1B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B0674FFA1AD572DD0092D1B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = CollectionViewMenu/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,7 @@
 		B0674FC81AD56E360092D1B8 = {
 			isa = PBXGroup;
 			children = (
+				B0674FFA1AD572DD0092D1B8 /* README.md */,
 				B0674FD31AD56E360092D1B8 /* CollectionViewMenu */,
 				B0674FE91AD56E360092D1B8 /* CollectionViewMenuTests */,
 				B0674FD21AD56E360092D1B8 /* Products */,
@@ -80,7 +81,6 @@
 		B0674FD31AD56E360092D1B8 /* CollectionViewMenu */ = {
 			isa = PBXGroup;
 			children = (
-				B0674FFA1AD572DD0092D1B8 /* README.md */,
 				B0674FD61AD56E360092D1B8 /* AppDelegate.swift */,
 				B0674FDA1AD56E360092D1B8 /* Main.storyboard */,
 				B0674FDD1AD56E360092D1B8 /* Images.xcassets */,
