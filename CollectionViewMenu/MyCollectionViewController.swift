@@ -17,10 +17,12 @@ class MyCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let image = UIImage(named: "texture") {
-            self.collectionView?.backgroundColor = UIColor(patternImage: image)
-        } else {
-            self.collectionView?.backgroundColor = UIColor.lightGrayColor()
+        if let cv = self.collectionView {
+            if let image = UIImage(named: "texture") {
+                cv.backgroundColor = UIColor(patternImage: image)
+            } else {
+                cv.backgroundColor = UIColor.lightGrayColor()
+            }
         }
         
         // Here we add our action(s) to the menu
