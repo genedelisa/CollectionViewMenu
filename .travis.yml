@@ -3,7 +3,7 @@ language: objective-c
 
 xcode_project: CollectionViewMenu.xcodeproj
 xcode_scheme: CollectionViewMenu
-xcode_sdk: iphonesimulator8.1
+xcode_sdk: iphonesimulator
 
 before_install:
   - brew update
@@ -12,5 +12,5 @@ before_install:
 
 script:
 #- xcodebuild -project CollectionViewMenu.xcodeproj -scheme CollectionViewMenu -sdk iphonesimulator8.1
-   xctool -project CollectionViewMenu.xcodeproj -scheme CollectionViewMenu -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+   xctool -project CollectionViewMenu.xcodeproj -scheme CollectionViewMenu -sdk iphonesimulator
 
