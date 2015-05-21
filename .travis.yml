@@ -11,5 +11,5 @@ before_install:
 
 
 script:
-   xctool -project CollectionViewMenu.xcodeproj -scheme CollectionViewMenu -sdk iphonesimulator8.1 ONLY_ACTIVE_ARCH=NO
+   xctool -project CollectionViewMenu.xcodeproj -scheme CollectionViewMenu -sdk iphonesimulator8.1 ONLY_ACTIVE_ARCH=YES
 
