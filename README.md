@@ -17,6 +17,8 @@ controller. A better way is to put the logic in the cel itself.
 
 [![Build Status](https://travis-ci.org/genedelisa/CollectionViewMenu.png)](https://travis-ci.org/genedelisa/CollectionViewMenu)
 
+There is nothing wrong with the code here. Travis CI barfs a lot. Not ready for prime time ios development.
+
 
 
 ## Licensing
