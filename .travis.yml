@@ -1,0 +1,4 @@
+ # file: .travis.yml
+language: objective-c
+script:
+  - xcodebuild -project CollectionViewMenu.xcodeproj -scheme CollectionViewMen -sdk iphonesimulator
