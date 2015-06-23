@@ -11,5 +11,4 @@ before_install:
     - gem install xcpretty -N
 
 script:
-    - set -o pipefail
-    - xcodebuild -project CollectionViewMenu.xcodeproj -scheme "CollectionViewMenu" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6" ONLY_ACTIVE_ARCH=NO test | xcpretty -c
+    xcodebuild -project CollectionViewMenu.xcodeproj -scheme "CollectionViewMenu" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6" ONLY_ACTIVE_ARCH=NO test | xcpretty -c
