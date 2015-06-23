@@ -6,9 +6,9 @@ xcode_scheme: CollectionViewMenu
 xcode_sdk: iphonesimulator8.1
 
 before_install:
-    brew update
-    brew outdated xctool || brew upgrade xctool
-    gem install xcpretty -N
+    - brew update
+    - brew outdated xctool || brew upgrade xctool
+    - gem install xcpretty -N
 
 script:
     set -o pipefail
