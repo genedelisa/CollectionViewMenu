@@ -12,7 +12,9 @@ controller. A better way is to put the logic in the cel itself.
 
 
 ## Bugs
-x`
+
+I don't see any. Except in travis.
+
 ### Status
 
 [![Build Status](https://travis-ci.org/genedelisa/CollectionViewMenu.png)](https://travis-ci.org/genedelisa/CollectionViewMenu)
