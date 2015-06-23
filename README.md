@@ -17,6 +17,8 @@ I don't see any. Except in travis.
 
 ### Status
 
+[![GitHub version](https://badge.fury.io/gh/genedelisa%2FCollectionViewMenu.svg)](http://badge.fury.io/gh/genedelisa%2FCollectionViewMenu)
+
 [![Build Status](https://travis-ci.org/genedelisa/CollectionViewMenu.png)](https://travis-ci.org/genedelisa/CollectionViewMenu)
 
 There is nothing wrong with the code here. Travis CI barfs a lot. It's not ready for prime time ios development.
