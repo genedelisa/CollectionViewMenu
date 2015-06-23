@@ -14,6 +14,7 @@
 		B0674FED1AD56E360092D1B8 /* CollectionViewMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FEC1AD56E360092D1B8 /* CollectionViewMenuTests.swift */; };
 		B0674FF71AD56E730092D1B8 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FF61AD56E730092D1B8 /* MyCollectionViewController.swift */; };
 		B0674FF91AD56E900092D1B8 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FF81AD56E900092D1B8 /* MyCollectionViewCell.swift */; };
+		B06FF5181B397D1600EC9F32 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B06FF5171B397D1600EC9F32 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		B0674FF61AD56E730092D1B8 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 		B0674FF81AD56E900092D1B8 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		B0674FFC1AD57B1A0092D1B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B06FF5171B397D1600EC9F32 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		B0674FC81AD56E360092D1B8 = {
 			isa = PBXGroup;
 			children = (
+				B06FF5171B397D1600EC9F32 /* .travis.yml */,
 				B0674FFC1AD57B1A0092D1B8 /* README.md */,
 				B0674FD31AD56E360092D1B8 /* CollectionViewMenu */,
 				B0674FE91AD56E360092D1B8 /* CollectionViewMenuTests */,
@@ -161,6 +164,7 @@
 		B0674FC91AD56E360092D1B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Gene De Lisa";
 				TargetAttributes = {
@@ -199,6 +203,7 @@
 			files = (
 				B0674FDC1AD56E360092D1B8 /* Main.storyboard in Resources */,
 				B0674FE11AD56E360092D1B8 /* LaunchScreen.xib in Resources */,
+				B06FF5181B397D1600EC9F32 /* .travis.yml in Resources */,
 				B0674FDE1AD56E360092D1B8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +422,7 @@
 				B0674FF21AD56E360092D1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0674FF31AD56E360092D1B8 /* Build configuration list for PBXNativeTarget "CollectionViewMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +431,7 @@
 				B0674FF51AD56E360092D1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

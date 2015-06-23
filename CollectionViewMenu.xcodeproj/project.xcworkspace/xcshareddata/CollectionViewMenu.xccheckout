@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6E252BFB-35F6-4B98-AB5E-A3E0DF514178</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CollectionViewMenu</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D3F64CC17767F1B899AB0E8C6E10B61E5E5D9D37</key>
 		<string>https://github.com/genedelisa/CollectionViewMenu.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CollectionViewMenu.xcodeproj</string>
+	<string>CollectionViewMenu.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D3F64CC17767F1B899AB0E8C6E10B61E5E5D9D37</key>

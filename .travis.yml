@@ -1,15 +1,16 @@
- # file: .travis.yml
+# file: .travis.yml
 language: objective-c
-
+osx_image: xcode63
 xcode_project: CollectionViewMenu.xcodeproj
 xcode_scheme: CollectionViewMenu
 xcode_sdk: iphonesimulator8.1
 
 before_install:
-  - brew update
-  - brew outdated xctool || brew upgrade xctool
-
+    brew update
+    brew outdated xctool || brew upgrade xctool
+    gem install xcpretty -N
 
 script:
-   xctool -project CollectionViewMenu.xcodeproj -scheme CollectionViewMenu -sdk iphonesimulator8.1 ONLY_ACTIVE_ARCH=YES
-
+    set -o pipefail
+    xcodebuild -project Timepiece.xcodeproj -scheme "CollectionViewMenu" -sdk iphonesimulator
+-destination "platform=iOS Simulator,name=iPhone 6" ONLY_ACTIVE_ARCH=NO test | xcpretty -c
