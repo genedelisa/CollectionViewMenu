@@ -14,6 +14,7 @@
 		B0674FED1AD56E360092D1B8 /* CollectionViewMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FEC1AD56E360092D1B8 /* CollectionViewMenuTests.swift */; };
 		B0674FF71AD56E730092D1B8 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FF61AD56E730092D1B8 /* MyCollectionViewController.swift */; };
 		B0674FF91AD56E900092D1B8 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0674FF81AD56E900092D1B8 /* MyCollectionViewCell.swift */; };
+		B068A0ED1B52988E00E5A431 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B068A0EC1B52988E00E5A431 /* LICENSE */; };
 		B06FF5181B397D1600EC9F32 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B06FF5171B397D1600EC9F32 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		B0674FF61AD56E730092D1B8 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 		B0674FF81AD56E900092D1B8 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		B0674FFC1AD57B1A0092D1B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B068A0EC1B52988E00E5A431 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B06FF5171B397D1600EC9F32 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 		B0674FC81AD56E360092D1B8 = {
 			isa = PBXGroup;
 			children = (
+				B068A0EC1B52988E00E5A431 /* LICENSE */,
 				B06FF5171B397D1600EC9F32 /* .travis.yml */,
 				B0674FFC1AD57B1A0092D1B8 /* README.md */,
 				B0674FD31AD56E360092D1B8 /* CollectionViewMenu */,
@@ -205,6 +208,7 @@
 				B0674FE11AD56E360092D1B8 /* LaunchScreen.xib in Resources */,
 				B06FF5181B397D1600EC9F32 /* .travis.yml in Resources */,
 				B0674FDE1AD56E360092D1B8 /* Images.xcassets in Resources */,
+				B068A0ED1B52988E00E5A431 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

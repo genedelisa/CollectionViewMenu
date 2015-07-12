@@ -32,8 +32,11 @@ Maybe when they support Yosemite.
 
 ## Licensing
 
-I'd appreciate an ack somehow.
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
+
+
 
 ## Credits
-
-*	[Gene De Lisa](http://rockhoppertech.com/blog/)
+*	[Gene De Lisa's development blog](http://rockhoppertech.com/blog/)
+*	[Gene De Lisa's music blog](http://genedelisa.com/)
+*   Twitter: [@GeneDeLisaDev](http://twitter.com/genedelisadev)
